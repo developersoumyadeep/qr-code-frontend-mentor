@@ -6,6 +6,7 @@
   --blue-500: #3685FF;
   --white: #FFFFFF;
   --card-border-radius: 20px;
+  --image-border-radius: 10px;
   --spacing-500: 40px;
   --spacing-300: 24px;
   --spacing-200: 16px;
@@ -41,7 +42,7 @@ body {
 }
 
 .qr-image {
-  border-radius: var(--card-border-radius);
+  border-radius: var(--image-border-radius);
   height: 288px;
   width: 288px;
   margin: 0 0 var(--spacing-300);
